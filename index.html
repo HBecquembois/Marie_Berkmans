@@ -5,10 +5,12 @@
     <meta charset="UTF-8">
     <meta name="Marie Berkmans orthophoniste" content="Marie Berkmans orthophoniste site professionnel">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <meta property="og:title" content="Marie Berkmans orthophoniste">
     <meta property="og:image" content="facebook-card.jpg">
     <meta property="og:description" content="Marie Berkmans orthophoniste site professionnel">
     <meta property="og:site_name" content="Marie Berkmans"/>
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
     <link rel="stylesheet" href="style.css">
   </head>
@@ -16,9 +18,14 @@
   <body>
     <div class="navbar">
       Navbar
+      <a href="#presentation">Présentation</a>
+      <a href="#caa">La CAA</a>
+      <a href="#cabinet">Le cabinet</a>
+      <a href="#formation">Formation</a>
+      <a href="#contact">Contactez-moi</a>
     </div>
     <div class="container">
-      <div class="presentation-card">
+      <div class="presentation-card" id="presentation">
         <h1>Marie Berkmans</h1>
         <!-- <img src="images/profile_picture.jpg" id="img_circle" width=120px alt="photo of Hélène Becquembois"> -->
         <p>Bienvenue sur mon site professionnel</p>
@@ -42,7 +49,7 @@
             </p>
       </div>
 
-      <div class="caa-card">
+      <div class="caa-card" id="caa">
         <h2>La Communication Alternative Améliorée (CAA)</h2>
         <p>La Communication Alternative Améliorée permet à toute personne ayant des difficultés de communication de s'exprimer, comprendre, faire des choix, grâce à l'utilisation d'outils ou de techniques variées.
         <br>
@@ -51,42 +58,36 @@
         <p>Pour en savoir plus sur la CAA, consultez <a href="https://www.isaac-fr.org/" target="_blank">le site Isaac Francophone.</a></p>
       </div>
 
-      <div class="infos-card">
-        <h2>Infos pratiques</h2>
+      <div class="infos-card" id="cabinet">
+        <h2>Le cabinet</h2>
         <p>Adresse : 56 rue des Pipots 62200 Boulogne sur Mer</p>
         <p>Le cabinet est accessible aux PMR (rez-de-chaussée, rampe d'accès)</p>
         <p>Parking payants à proximité : Saint-Louis, Lumière, Place Dalton</p>
+        <p>Map</p>
       </div>
 
-      <div class="formation-card">
+      <div class="formation-card" id="formation">
         <h2>Formation</h2>
         <p>Forte de plus de 15 ans d'expérience clinique en établissement médico sociaux, ou en libéral, je partage à présent mes connaissances lors de formations à destination des familles, professionnels ou enseignants, dans le domaine de la CAA ou de l'autisme.</p>
         <p>Vous avez un projet de formation ? N'hésitez pas à me contacter pour que nous puissions en parler !</p>
-        <button>Contact formation</button>
+        <button onclick=" window.open('mailto:marie.berkmans@gmail.com', '_blank');" >Contact formation</button>
       </div>
 
-      <div class="contact-card">
+      <div class="contact-card" id="contact">
         <h2>Contactez-moi</h2>
         <p>adresse</p>
         <p>mail</p>
         <p>horaires</p>
-        <p>Map</p>
-      </div>
-
-      <div class="social-card">
-        <h2>Follow me</h2>
-          </li>
-            <li class="list_inline_li">
-              <a href="https://www.linkedin.com/in/marie-berkmans-aa376621b/" target="_blank">
-                <i class="fa-brands fa-linkedin"></i>
-              </a>
-            </li>
-            <li class="list_inline_li">
-              <a href="https://www.facebook.com/marie.berkmans.58" target="_blank">
-                <i class="fa-brands fa-facebook"></i>
-              </a>
-            </li>
-          </ul>
+        <li class="list_inline_li">
+          <a href="https://www.linkedin.com/in/marie-berkmans-aa376621b/" target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="list_inline_li">
+          <a href="https://www.facebook.com/marie.berkmans.58" target="_blank">
+          <i class="fa-brands fa-facebook"></i>
+          </a>
+        </li>
       </div>
 
       <div class="footer">
