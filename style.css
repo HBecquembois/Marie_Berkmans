@@ -1,0 +1,13 @@
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+#img-circle {
+  border-radius: 50%;
+  width: 120px;
+}
