@@ -1,13 +1,38 @@
 .navbar {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  background: white;
 }
 
 .navbar a {
   text-decoration: none;
 }
 
+.navbar-items {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.item {
+  flex-grow: 0;
+  font-family: Helvetica;
+}
+
 #img-circle {
   border-radius: 50%;
   width: 120px;
+}
+
+p, h1, h2, li {
+  font-family: Helvetica;
+}
+.top {
+  text-decoration: none;
+  padding: 10px;
+  font-family: sans-serif;
+  color: #fff;
+  background: #000;
+  border-radius: 100px;
 }
