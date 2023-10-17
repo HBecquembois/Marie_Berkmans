@@ -9,7 +9,7 @@
 }
 
 .navbar-brand {
-  color: #69859D;
+  color: #495D6D;
 }
 
 #logo {
@@ -19,9 +19,39 @@
 }
 
 .presentation-card {
-  padding: 60px 25px;
+  padding: 60px 25px 60px;
+  margin-bottom: 15px;
+  background-color:  #eef8ff;
+  border-radius: 20px;
 }
 
+.caa-card {
+  padding: 60px 25px 60px;
+  margin-bottom: 15px;
+  background-color: #FFFFEF;
+  border-radius: 20px;
+}
+
+.infos-card {
+  padding: 60px 25px 60px;
+  margin-bottom: 15px;
+  background-color: #E1E6EB;
+  border-radius: 20px;
+}
+
+.formation-card {
+  padding: 60px 25px 60px;
+  margin-bottom: 15px;
+  background-color: #eef8ff;
+  border-radius: 20px;
+}
+
+.contact-card {
+  padding: 60px 25px 30px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  background-color: #FFFFEF;
+}
 
 #img-circle {
   border-radius: 50%;
