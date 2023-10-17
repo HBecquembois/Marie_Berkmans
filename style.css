@@ -8,10 +8,18 @@
   color: #69859D;
 }
 
+.navbar-brand {
+  color: #69859D;
+}
+
 #logo {
   position: absolute;
   top: 0;
   left: 15px;
+}
+
+.presentation-card {
+  padding: 60px 25px;
 }
 
 
