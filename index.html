@@ -14,31 +14,37 @@
     <meta property="og:site_name" content="Marie Berkmans"/>
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
-    <div class="container-fluid">
-      <div class="navbar">
-        <div id="logo" class="col-4">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top justify-content-end">
+      <div id="logo">
           <img src="/images/logo.png" alt="Marie Berkmans logo">
         </div>
-        <div class="navbar-items">
-          <p>
-            <div class="item"><a href="#presentation">Présentation</a></div>
-            <div class="item"><a href="#caa">CAA</a></div>
-            <div class="item"><a href="#cabinet">Cabinet</a></div>
-            <div class="item"><a href="#formation">Formation</a></div>
-            <div class="item"><a href="#contact">Contact</a></div>
-          </p>
-        </div>
-      </div>
-    </div>
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link" href="#presentation">Présentation</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#caa">CAA</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#cabinet">Cabinet</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#formation">Formation</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
 
     <div class="container-fluid">
       <div class="presentation-card" id="presentation">
         <h1>Marie Berkmans</h1>
-        <!-- <img src="images/profile_picture.jpg" id="img_circle" width=120px alt="photo of Hélène Becquembois"> -->
         <img src="/images/profile-picture.jpeg" id="img-circle" alt="Photo de Marie Berkmans">
         <p>Bienvenue sur mon site professionnel</p>
         <p>Orthophoniste en cabinet libéral à Boulogne Sur Mer, je réalise des bilans et prises en soins dans les domaines suivants :
