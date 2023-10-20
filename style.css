@@ -14,7 +14,7 @@
   color: #495D6D;
 }
 
-.navbar-brand {
+/* .navbar-brand {
   color: #495D6D;
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
@@ -22,7 +22,7 @@
 
 .navbar-brand:hover {
   color: #69859D;
-}
+} */
 
 #logo {
   position: absolute;
@@ -36,7 +36,69 @@
   margin-top: 60px;
   background-color:  #eef8ff;
   border-radius: 20px;
+  display: flex;
+  flex-direction:column;
 }
+
+.title {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.prestations {
+  margin-top: 20px;
+}
+
+.prestations ul {
+  list-style-type: none;
+}
+
+.fa-solid {
+  color:#495D6D;
+}
+
+.rdv, .allo-ortho {
+  display:flex;
+  justify-content: center;
+}
+
+/* .btn-gray-yellow {
+  background-color:#69859D;
+  color: #ECC52A;
+  border-radius: 5px;
+  padding: 5px 10px;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  transition: background 0.3s ease;
+} */
+
+.btn-blue {
+  background-color:#95CEE9;
+  color: #495D6D;
+  border-radius: 5px;
+  padding: 8px 10px;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+
+.btn-blue:hover {
+  opacity: 0.8;
+}
+
+.questions {
+  padding-top: 30px;
+}
+
+.questions a {
+  text-decoration: none;
+  color:#69859D;
+}
+
 
 .caa-card {
   padding: 60px 25px 60px;
