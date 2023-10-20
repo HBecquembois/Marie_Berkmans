@@ -50,7 +50,7 @@
   margin-top: 20px;
 }
 
-.prestations ul {
+.prestations ul, .questions ul{
   list-style-type: none;
 }
 
