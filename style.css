@@ -55,7 +55,7 @@
   margin-top: 20px;
 }
 
-.prestations ul, .questions ul{
+.prestations ul, .questions ul, .contact-card ul{
   list-style-type: none;
 }
 
@@ -108,7 +108,7 @@
   color:#69859D;
 } */
 
-.caa-card h2, .infos-card h2, .formation-card h2, .contact-card-h2 {
+.caa-card h2, .infos-card h2, .formation-card h2, .contact-card h2 {
   margin-bottom: 25px;
 }
 
@@ -119,10 +119,12 @@
   border-radius: 20px;
 }
 
-.caa-card a {
+.caa-card a, .contact-card a {
   color:#69859D;
+  text-decoration: none;
+  transition: 0.3s ease;
 }
-.caa-card a:hover {
+.caa-card a:hover, .contact-card a:hover {
   color:#495D6D;
 }
 
