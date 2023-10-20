@@ -33,6 +33,7 @@
 .presentation-card {
   padding: 60px 25px 60px;
   margin-bottom: 15px;
+  margin-top: 60px;
   background-color:  #eef8ff;
   border-radius: 20px;
 }
@@ -78,11 +79,29 @@ h1, h2 {
   font-weight: 900;
 }
 
-.top {
-  text-decoration: none;
-  padding: 10px;
-  font-family: sans-serif;
-  color: #fff;
-  background: #000;
-  border-radius: 100px;
+@media (max-width: 756px) {
+  .container-fluid {
+    width: 600px;
+  }
+  .navbar {
+    width: 600px;
+  }
+}
+
+@media (max-width: 596px) {
+  .container-fluid {
+    width: 475px;
+  }
+  .navbar {
+    width: 475px;
+  }
+}
+
+@media (max-width: 320px) {
+  .container-fluid {
+    width: 256px;
+  }
+  .navbar {
+    width: 256px;
+  }
 }
