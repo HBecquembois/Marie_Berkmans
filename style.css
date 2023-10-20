@@ -133,6 +133,17 @@
   margin-bottom: 15px;
   background-color: #E1E6EB;
   border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.infos-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.cabinet-infos {
+  display: flex;
+  flex-direction: row;
 }
 
 .formation-card {
