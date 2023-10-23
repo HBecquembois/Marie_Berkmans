@@ -21,11 +21,11 @@
 
     <link rel="stylesheet" href="style.css">
 
-    <!-- Fonts -->
+    <!-- Fonts and icons-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
     <!-- Mapbox -->
     <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
@@ -69,9 +69,9 @@
         <div class="prestations">
           <p>Orthophoniste en cabinet libéral à Boulogne Sur Mer, je réalise des bilans et prises en soins dans les domaines suivants :</p>
           <ul>
-            <li><i class="fa-solid fa-arrow-right"></i>  <b>Langage oral et communication : </b>trouble développemental du langage, Communication Alternative Améliorée, handicap, autisme, groupe d'entraînement aux habiletés sociales, implant cochléaire...</li>
-            <li><i class="fa-solid fa-arrow-right"></i>  Neurologie : aphasiologie, maladies neurodégénératives,</li>
-            <li><i class="fa-solid fa-arrow-right"></i>  Cognition mathématique.</li>
+            <li><i class="fa-solid fa-arrow-right fa-xl"></i>  <b>Langage oral et communication</b> : trouble développemental du langage, Communication Alternative Améliorée, handicap, autisme, groupe d'entraînement aux habiletés sociales, implant cochléaire...</li>
+            <li><i class="fa-solid fa-arrow-right fa-xl"></i>  <b>Neurologie</b> : aphasiologie, maladies neurodégénératives,</li>
+            <li><i class="fa-solid fa-arrow-right fa-xl"></i>  <b>Cognition mathématique.</b></li>
           </ul>
 
             <!-- <p><i class="fa-solid fa-arrow-right"></i>  <b>Langage oral et communication : </b>trouble développemental du langage, Communication Alternative Améliorée, handicap, autisme, groupe d'entraînement aux habiletés sociales, implant cochléaire...</p>
@@ -87,9 +87,9 @@
 
         <div class="questions">
           <ul>
-            <li><i class="fa-solid fa-arrow-right"></i>  Vous vous posez des questions sur la nécessité d'un bilan orthophonique pour votre enfant ou vous-même ?</li>
-            <li><i class="fa-solid fa-arrow-right"></i>  Vous avez besoin de conseils en attendant votre RDV ?</li>
-            <li><i class="fa-solid fa-arrow-right"></i>  Vous souhaitez être inscrits sur une liste d'attente commune diffusée auprès de tous les orthophonistes de votre secteur ?</li>
+            <li><i class="fa-solid fa-arrow-right fa-xl"></i>  Vous vous posez des questions sur la nécessité d'un bilan orthophonique pour votre enfant ou vous-même ?</li>
+            <li><i class="fa-solid fa-arrow-right fa-xl"></i>  Vous avez besoin de conseils en attendant votre RDV ?</li>
+            <li><i class="fa-solid fa-arrow-right fa-xl"></i>  Vous souhaitez être inscrits sur une liste d'attente commune diffusée auprès de tous les orthophonistes de votre secteur ?</li>
           </ul>
           <div class="allo-ortho">
             <button class="btn-gray" onclick=" window.open('https://www.allo-ortho.com/', '_blank');" >Consultez le site Allo-ortho !</button>
@@ -98,13 +98,16 @@
       </div>
 
       <div class="caa-card" id="caa">
-        <h2>La Communication Alternative Améliorée (CAA)</h2>
+        <h2>La Communication Alternative et Améliorée (CAA)</h2>
         <p>La Communication Alternative Améliorée permet à toute personne ayant des difficultés de communication de s'exprimer, comprendre, faire des choix, grâce à l'utilisation d'outils ou de techniques variées.
         <br>
         <p>En séance d'orthophonie, j'utilise la CAA quotidiennement, en signant, ou en pointant des pictogrammes.</p>
         <p> Le cabinet est équipé de différents outils permettant de trouver les solutions les plus personnalisées pour l'enfant ou l'adulte qui ne peut s'exprimer oralement (Classeurs PODD, tableaux de communication, tablettes et applications de CAA avec synthèse vocale type TD SNAP, GRID3, Proloquo2go...)</p>
-        <p>Communiquer est un droit !</p>
-        <p>Pour en savoir plus sur la CAA, consultez <a href="https://www.isaac-fr.org/" target="_blank">le site Isaac Francophone.</a></p>
+        <p>Communiquer est un droit ! Pour en savoir plus, consulter le site de l'Association internationale pour la Communication Alternative et Améliorée (Isaac Francophone).</p>
+        <div class="isaac">
+          <button class="btn-yellow" onclick=" window.open('https://www.isaac-fr.org/', '_blank');" > Isaac Francophone</button>
+        </div>
+        <!-- <p>Pour en savoir plus sur la CAA, consultez <a href="https://www.isaac-fr.org/" target="_blank">le site Isaac Francophone.</a></p> -->
       </div>
 
       <div class="infos-card" id="cabinet">
@@ -113,9 +116,9 @@
         </div>
         <div class="cabinet-infos">
           <div class="cabinet-details">
-            <p>56 rue des Pipots, 62200 Boulogne sur Mer</p>
-            <p>Le cabinet est accessible aux PMR (rez-de-chaussée, rampe d'accès)</p>
-            <p>Parking payants à proximité : Saint-Louis, Lumière, Place Dalton.</p>
+            <p><i class="fa-solid fa-location-dot fa-xl"></i>  56 rue des Pipots, 62200 Boulogne sur Mer.</p>
+            <p>Cabinet accessible aux PMR (rez-de-chaussée, rampe d'accès)</p>
+            <p>Parkings payants à proximité : Saint-Louis, Lumière, Place Dalton.</p>
           </div>
           <div id='map' style='width: 400px; height: 250px;'></div>
             <script>
@@ -169,7 +172,7 @@
 
       <div class="formation-card" id="formation">
         <h2>Formation</h2>
-        <p>Forte de plus de 15 ans d'expérience clinique en établissement médico sociaux, ou en libéral, je partage à présent mes connaissances lors de formations à destination des familles, des professionnels ou des enseignants, dans le domaine de la CAA ou de l'autisme.</p>
+        <p>Forte de plus de 15 ans d'expérience clinique en établissements médico-sociaux ou en libéral, je partage à présent mes connaissances lors de formations à destination des familles, des professionnels ou des enseignants, dans le domaine de la CAA ou de l'autisme.</p>
         <p>Vous avez un projet de formation ? N'hésitez pas à me contacter pour que nous puissions en parler !</p>
         <div class="contact-formation">
           <button class="btn-yellow" onclick=" window.open('mailto:marie.berkmans@gmail.com', '_blank');" >Contact formation</button>

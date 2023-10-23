@@ -68,7 +68,7 @@
   color: #ECC52A;
 }
 
-.rdv, .allo-ortho, .contact-formation {
+.rdv, .allo-ortho, .contact-formation, .isaac {
   display:flex;
   justify-content: center;
 }
