@@ -13,12 +13,21 @@
     <meta property="og:description" content="Marie Berkmans orthophoniste site web professionnel">
     <meta property="og:site_name" content="Marie Berkmans"/>
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="style.css">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Mapbox -->
     <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
   </head>
@@ -31,9 +40,9 @@
         </a>
       </div>
       <ul class="nav justify-content-end">
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a class="nav-link" href="#presentation">Présentation</a>
-        </li>
+        </li> -->
         <li class="nav-item">
           <a class="nav-link" href="#caa">CAA</a>
         </li>
@@ -60,10 +69,15 @@
         <div class="prestations">
           <p>Orthophoniste en cabinet libéral à Boulogne Sur Mer, je réalise des bilans et prises en soins dans les domaines suivants :</p>
           <ul>
-            <li><i class="fa-solid fa-arrow-right"></i>  Langage oral et communication : trouble développemental du langage, Communication Alternative Améliorée, handicap, autisme, groupe d'entraînement aux habiletés sociales, implant cochléaire...</li>
+            <li><i class="fa-solid fa-arrow-right"></i>  <b>Langage oral et communication : </b>trouble développemental du langage, Communication Alternative Améliorée, handicap, autisme, groupe d'entraînement aux habiletés sociales, implant cochléaire...</li>
             <li><i class="fa-solid fa-arrow-right"></i>  Neurologie : aphasiologie, maladies neurodégénératives,</li>
             <li><i class="fa-solid fa-arrow-right"></i>  Cognition mathématique.</li>
           </ul>
+
+            <!-- <p><i class="fa-solid fa-arrow-right"></i>  <b>Langage oral et communication : </b>trouble développemental du langage, Communication Alternative Améliorée, handicap, autisme, groupe d'entraînement aux habiletés sociales, implant cochléaire...</p>
+            <p><i class="fa-solid fa-arrow-right"></i>  Neurologie : aphasiologie, maladies neurodégénératives,</p>
+            <p><i class="fa-solid fa-arrow-right"></i>  Cognition mathématique.</p> -->
+
 
           <p>En fonction de vos besoins et du projet de soins élaboré ensemble, je propose des interventions directes en séances individuelles ou séances de groupe, ainsi que de l'accompagnement parental.</p>
           <div class="rdv">
@@ -78,10 +92,9 @@
             <li><i class="fa-solid fa-arrow-right"></i>  Vous souhaitez être inscrits sur une liste d'attente commune diffusée auprès de tous les orthophonistes de votre secteur ?</li>
           </ul>
           <div class="allo-ortho">
-            <button class="btn-blue" onclick=" window.open('https://www.allo-ortho.com/', '_blank');" >Consultez le site Allo-ortho !</button>
+            <button class="btn-gray" onclick=" window.open('https://www.allo-ortho.com/', '_blank');" >Consultez le site Allo-ortho !</button>
           </div>
         </div>
-
       </div>
 
       <div class="caa-card" id="caa">
@@ -100,7 +113,7 @@
         </div>
         <div class="cabinet-infos">
           <div class="cabinet-details">
-            <p>Adresse : 56 rue des Pipots - 62200 Boulogne sur Mer - France</p>
+            <p>56 rue des Pipots, 62200 Boulogne sur Mer</p>
             <p>Le cabinet est accessible aux PMR (rez-de-chaussée, rampe d'accès)</p>
             <p>Parking payants à proximité : Saint-Louis, Lumière, Place Dalton.</p>
           </div>
@@ -118,6 +131,40 @@
             .addTo(map);
             </script>
         </div>
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/images/photo1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="/images/photo2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="/images/photo3.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/images/photo1.jpg" class="d-block w-100" alt="photo 1 du cabinet">
+            </div>
+            <div class="carousel-item">
+              <img src="/images/photo2.jpg" class="d-block w-100" alt="photo 2 du cabinet">
+            </div>
+            <div class="carousel-item">
+              <img src="images/photo3.jpg" class="d-block w-100" alt="photo 3 du cabinet">
+            </div>
+          </div> -->
+        </div>
       </div>
 
       <div class="formation-card" id="formation">
@@ -125,14 +172,14 @@
         <p>Forte de plus de 15 ans d'expérience clinique en établissement médico sociaux, ou en libéral, je partage à présent mes connaissances lors de formations à destination des familles, des professionnels ou des enseignants, dans le domaine de la CAA ou de l'autisme.</p>
         <p>Vous avez un projet de formation ? N'hésitez pas à me contacter pour que nous puissions en parler !</p>
         <div class="contact-formation">
-          <button class="btn-blue" onclick=" window.open('mailto:marie.berkmans@gmail.com', '_blank');" >Contact formation</button>
+          <button class="btn-yellow" onclick=" window.open('mailto:marie.berkmans@gmail.com', '_blank');" >Contact formation</button>
         </div>
       </div>
 
       <div class="contact-card" id="contact">
         <h2>Contactez-moi</h2>
         <ul>
-          <li><i class="fa-regular fa-envelope"></i>  56 rue des Pipots - 62200 Boulogne sur Mer - France</li>
+          <li><i class="fa-solid fa-envelope"></i>  56 rue des Pipots - 62200 Boulogne sur Mer - France</li>
           <li><i class="fa-solid fa-at"></i><a href="mailto:marie.berkmans@gmail.com" target="_blank">  E-mail</a></li>
           <li><i class="fa-solid fa-phone"></i>  +33 7 83 30 01 71</li>
           <!-- <li><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/marie-berkmans-aa376621b/" target="_blank">  LinkedIn</a></li>
@@ -147,7 +194,7 @@
           <a href="https://www.linkedin.com/in/marie-berkmans-aa376621b/" target="_blank"><i class="fab fa-linkedin"></i></a>
         </div>
         <div class="footer-copyright">
-          <p>This website is made with <i class="fas fa-heart"></i> by Hélène Becquembois</p>
+          <p>Made with <i class="fas fa-heart"></i> by Hélène Becquembois</p>
         </div>
       </div>
     </div>

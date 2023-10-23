@@ -5,7 +5,7 @@
 
 .nav-link {
   text-decoration: none;
-  color: #69859D;
+  color:#69859D;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
 }
@@ -47,8 +47,12 @@
 
 .title {
   display:flex;
-  justify-content: space-between;
+  justify-content: left;
   align-items: center;
+}
+
+.title h1 {
+  padding-left: 30px;
 }
 
 .prestations {
@@ -60,7 +64,8 @@
 }
 
 .fa-solid {
-  color:#495D6D;
+  /* color:#495D6D; */
+  color: #ECC52A;
 }
 
 .rdv, .allo-ortho, .contact-formation {
@@ -68,7 +73,7 @@
   justify-content: center;
 }
 
-.btn-gray-yellow {
+.btn-gray {
   background-color:#69859D;
   color: #ECC52A;
   border-radius: 5px;
@@ -79,10 +84,24 @@
   transition: background 0.3s ease;
 }
 
-.btn-gray-yellow:hover {
+.btn-gray:hover {
   opacity: 0.8;
 }
 
+.btn-yellow {
+  background-color: #ECC52A;
+  color: #495D6D;
+  border-radius: 5px;
+  padding: 8px 10px;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.btn-yellow:hover {
+  opacity: 0.8;
+}
 
 .btn-blue {
   background-color:#95CEE9;
@@ -124,6 +143,7 @@
   text-decoration: none;
   transition: 0.3s ease;
 }
+
 .caa-card a:hover, .contact-card a:hover {
   color:#495D6D;
 }
@@ -151,10 +171,19 @@
   padding-top: 40px;
 }
 
+#map {
+  padding-left: 15px;
+}
+
+.carousel {
+  padding: 60px;
+}
+
 .formation-card {
   padding: 60px 25px 60px;
   margin-bottom: 15px;
-  background-color: #eef8ff;
+  /* background-color: #eef8ff; */
+  background-color: #FFFFEF;
   border-radius: 20px;
 }
 
@@ -162,15 +191,21 @@
   padding: 60px 25px 30px;
   border-radius: 20px;
   margin-bottom: 15px;
-  background-color: #FFFFEF;
+  /* background-color: #FFFFEF; */
+  background-color: #eef8ff;
 }
 
 p, h1, h2, li {
   font-family: 'Montserrat', sans-serif;
+  color: #495D6D;
 }
 
-h1, h2 {
-  font-weight: 900;
+h1 {
+  font-weight: 800;
+}
+
+h2 {
+  font-weight: 700;
 }
 
 .footer {
