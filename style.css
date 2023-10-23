@@ -43,10 +43,11 @@
 #img-circle {
   border-radius: 50%;
   width: 120px;
+  box-shadow: 2px 2px 2px gray;
 }
 
 .title {
-  display:flex;
+  display: flex;
   justify-content: left;
   align-items: center;
 }
@@ -180,7 +181,7 @@
   padding: 60px;
 } */
 
-.photos {
+#photos {
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -190,6 +191,10 @@
 
 .photo {
   padding: 15px 15px;
+}
+
+.border {
+  border-radius: 10px;
 }
 
 .formation-card {
@@ -224,6 +229,7 @@ h2 {
 .footer {
   background: white;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   height: 100px;
