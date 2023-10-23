@@ -65,7 +65,6 @@
 }
 
 .fa-solid {
-  /* color:#495D6D; */
   color: #ECC52A;
 }
 
@@ -74,26 +73,11 @@
   justify-content: center;
 }
 
-.btn-gray {
-  background-color:#69859D;
-  color: #ECC52A;
-  border-radius: 5px;
-  padding: 8px 10px;
-  border: none;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  transition: background 0.3s ease;
-}
-
-.btn-gray:hover {
-  opacity: 0.8;
-}
-
 .btn-yellow {
   background-color: #ECC52A;
   color: #495D6D;
-  border-radius: 2px 10px 2px;
-  padding: 8px 10px;
+  border-radius: 50px;
+  padding: 10px 15px;
   border: none;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
@@ -108,7 +92,7 @@
   background-color:#95CEE9;
   color: #495D6D;
   border-radius: 50px;
-  padding: 8px 10px;
+  padding: 10px 15px;
   border: none;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
@@ -135,11 +119,12 @@
 .caa-card {
   padding: 60px 25px 60px;
   margin-bottom: 15px;
-  background-color: #FFFFEF;
+  /* background-color: #FFFFEF; */
+  background-color: #FBF3D4;
   border-radius: 20px;
 }
 
-.caa-card a, .contact-card a {
+.contact-card a {
   color:#69859D;
   text-decoration: none;
   transition: 0.3s ease;
@@ -201,7 +186,7 @@
   padding: 60px 25px 60px;
   margin-bottom: 15px;
   /* background-color: #eef8ff; */
-  background-color: #FFFFEF;
+  background-color: #FBF3D4;
   border-radius: 20px;
 }
 
@@ -244,7 +229,6 @@ h2 {
 
 .footer-links a {
   color: #495D6D;
-  /* opacity: 0.15; */
   text-decoration: none;
   font-size: 24px;
   padding: 0px 10px;
