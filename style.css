@@ -56,7 +56,7 @@ nav ul {
   }
   nav ul {
     position: fixed;
-    left: -100%; */
+    left: -100%;
     top: 5%;
     flex-direction: column;
     background: white;
@@ -64,14 +64,11 @@ nav ul {
     text-align: center;
     transition: 0.25s;
   }
-  nav li {
+  nav .nav-link {
     color: black;
     padding: 3px 0;
   }
-  nav li:hover {
-    background: rgb(157, 217, 240);
-  }
-  nav.active ul {
+    nav.active ul {
     left: 0;
   }
 }
