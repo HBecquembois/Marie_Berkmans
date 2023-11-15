@@ -1,26 +1,33 @@
 .navbar {
+  display: flex;
   background-color: white;
   height: 60px;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-size: calc(0.5rem + 1.5vw);
 }
 
-.nav-link li {
+nav li {
   list-style: none;
- }
+}
 
- .nav-link a {
+.navbar a {
   text-decoration: none;
   color:#69859D;
   font-family: 'Montserrat', sans-serif;
- }
+}
 
- /* .nav-link {
+ .nav-link {
   text-decoration: none;
   color:#69859D;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-} */
+}
 
-.nav-link a:hover {
+.navbar a:hover {
   color: #495D6D;
 }
 
@@ -44,7 +51,7 @@ nav ul {
   display: none;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 596px) {
   #icons {
     display: block;
   }
@@ -59,12 +66,12 @@ nav ul {
     left: -100%;
     top: 5%;
     flex-direction: column;
-    background: white;
+    background: transparent;
     width: 100%;
     text-align: center;
     transition: 0.25s;
   }
-  nav .nav-link {
+  nav li {
     color: black;
     padding: 3px 0;
   }
@@ -73,23 +80,11 @@ nav ul {
   }
 }
 
-/* .navbar-brand {
-  color: #495D6D;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 900;
-}
-
-
-
-.navbar-brand:hover {
-  color: #69859D;
-} */
-
-/* #logo {
+#logo {
   position: absolute;
   top: 0;
   left: 15px;
-} */
+}
 
 .presentation-card {
   padding: 60px 25px 60px;
