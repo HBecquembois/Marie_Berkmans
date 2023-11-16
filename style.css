@@ -3,11 +3,11 @@
   background-color: white;
   height: 60px;
   position: fixed;
-  display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  font-size: calc(0.5rem + 1.5vw);
+  font-size: calc(0.2rem + 2.0vw);
+  font-size: 24px;
 }
 
 nav li {
@@ -31,14 +31,14 @@ nav li {
   color: #495D6D;
 }
 
-nav {
+/* nav {
   background: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
   font-size: calc(0.5rem + 1.5vw);
-}
+} */
 
 nav ul {
   display: flex;
@@ -46,12 +46,16 @@ nav ul {
   width: 60%;
 }
 
+.justify-content-end {
+  flex-wrap: nowrap;
+}
+
 #icons {
   cursor: pointer;
   display: none;
 }
 
-@media (max-width: 596px) {
+@media (max-width: 756px) {
   #icons {
     display: block;
   }
@@ -64,16 +68,20 @@ nav ul {
   nav ul {
     position: fixed;
     left: -100%;
-    top: 5%;
+    top: 10%;
     flex-direction: column;
-    background: transparent;
+    background: white;
     width: 100%;
     text-align: center;
     transition: 0.25s;
+    font-size: 16px;
   }
   nav li {
-    color: black;
     padding: 3px 0;
+  }
+  nav li:hover {
+    background: #eef8ff;
+    background 0,3s ease;
   }
     nav.active ul {
     left: 0;
@@ -89,7 +97,7 @@ nav ul {
 .presentation-card {
   padding: 60px 25px 60px;
   margin-bottom: 15px;
-  /* margin-top: 60px; */
+  margin-top: 60px;
   background-color:  #eef8ff;
   border-radius: 20px;
   display: flex;
@@ -163,11 +171,6 @@ nav ul {
   padding-top: 30px;
 }
 
-/* .questions a {
-  text-decoration: none;
-  color:#69859D;
-} */
-
 .caa-card h2, .infos-card h2, .formation-card h2, .contact-card h2 {
   margin-bottom: 25px;
 }
@@ -218,10 +221,6 @@ nav ul {
   padding-left: 15px;
 }
 
-/* .carousel {
-  padding: 60px;
-} */
-
 #photos {
   display: flex;
   justify-content: center;
@@ -241,7 +240,6 @@ nav ul {
 .formation-card {
   padding: 60px 25px 60px;
   margin-bottom: 15px;
-  /* background-color: #eef8ff; */
   background-color: #FBF3D4;
   border-radius: 20px;
 }
@@ -250,7 +248,6 @@ nav ul {
   padding: 60px 25px 30px;
   border-radius: 20px;
   margin-bottom: 15px;
-  /* background-color: #FFFFEF; */
   background-color: #eef8ff;
 }
 
