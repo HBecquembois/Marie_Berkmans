@@ -31,15 +31,6 @@ nav li {
   color: #495D6D;
 }
 
-/* nav {
-  background: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  font-size: calc(0.5rem + 1.5vw);
-} */
-
 nav ul {
   display: flex;
   justify-content: space-between;
@@ -81,7 +72,7 @@ nav ul {
   }
   nav li:hover {
     background: #eef8ff;
-    background 0,3s ease;
+    transition: background 0.3s ease;
   }
     nav.active ul {
     left: 0;
