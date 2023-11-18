@@ -2,6 +2,7 @@
   display: flex;
   background-color: white;
   height: 60px;
+  width: 100%;
   position: fixed;
   justify-content: space-between;
   align-items: center;
@@ -52,14 +53,18 @@ nav ul {
   }
   #icons:before {
     content: "\2630";
+    color: #495D6D;
   }
   .active #icons:before {
     content: "\2715";
+    color: #495D6D;
+    font-weight: bolder;
   }
   nav ul {
     position: fixed;
     left: -100%;
-    top: 10%;
+    top: 60px;
+    /* padding: 0 25px 0; */
     flex-direction: column;
     background: white;
     width: 100%;
@@ -71,7 +76,7 @@ nav ul {
     padding: 3px 0;
   }
   nav li:hover {
-    background: #eef8ff;
+    background: #FBF3D4;
     transition: background 0.3s ease;
   }
     nav.active ul {
@@ -169,7 +174,6 @@ nav ul {
 .caa-card {
   padding: 60px 25px 60px;
   margin-bottom: 15px;
-  /* background-color: #FFFFEF; */
   background-color: #FBF3D4;
   border-radius: 20px;
 }
@@ -289,25 +293,25 @@ h2 {
   .container-fluid {
     width: 600px;
   }
-  .navbar {
+  /* .navbar {
     width: 600px;
-  }
+  } */
 }
 
 @media (max-width: 596px) {
   .container-fluid {
     width: 475px;
   }
-  .navbar {
+  /* .navbar {
     width: 475px;
-  }
+  } */
 }
 
 @media (max-width: 320px) {
   .container-fluid {
     width: 256px;
   }
-  .navbar {
+  /* .navbar {
     width: 256px;
-  }
+  } */
 }
