@@ -262,11 +262,9 @@ h2 {
 .footer {
   background: white;
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+  flex-wrap: nowrap;
+  align-items: baseline;
   justify-content: space-between;
-  height: 100px;
-  padding: 0px 50px;
   color:#495D6D
 }
 
@@ -284,8 +282,25 @@ h2 {
 .footer-links a:hover {
   color:#ECC52A;
 }
+
 .footer .fa-heart {
   color: #D23333;
+}
+
+.footer-copyright {
+  font-size: 14px;
+}
+
+.error-card {
+  padding: 60px 25px 60px;
+  margin-bottom: 15px;
+  margin-top: 60px;
+  background-color:  #eef8ff;
+  border-radius: 20px;
+}
+
+.errors-buttons {
+  display: flex;
 }
 
 
