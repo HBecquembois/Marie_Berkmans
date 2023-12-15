@@ -316,11 +316,11 @@ h2 {
   }
 }
 
-@media (max-width: 360px) {
+/* @media (max-width: 360px) {
   .container-fluid {
     width: 288px;
   }
-}
+} */
 
 @media (max-width: 320px) {
   .container-fluid {
