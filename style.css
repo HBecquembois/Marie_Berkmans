@@ -308,25 +308,22 @@ h2 {
   .container-fluid {
     width: 600px;
   }
-  /* .navbar {
-    width: 600px;
-  } */
 }
 
 @media (max-width: 596px) {
   .container-fluid {
     width: 475px;
   }
-  /* .navbar {
-    width: 475px;
-  } */
+}
+
+@media (max-width: 360px) {
+  .container-fluid {
+    width: 288px;
+  }
 }
 
 @media (max-width: 320px) {
   .container-fluid {
     width: 256px;
   }
-  /* .navbar {
-    width: 256px;
-  } */
 }
