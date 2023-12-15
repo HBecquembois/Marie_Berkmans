@@ -304,7 +304,7 @@ h2 {
 }
 
 
-@media (max-width: 756px) {
+/* @media (max-width: 756px) {
   .container-fluid {
     width: 600px;
   }
@@ -316,14 +316,8 @@ h2 {
   }
 }
 
-/* @media (max-width: 360px) {
-  .container-fluid {
-    width: 288px;
-  }
-} */
-
 @media (max-width: 320px) {
   .container-fluid {
     width: 256px;
   }
-}
+} */
